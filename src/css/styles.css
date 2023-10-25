@@ -1,25 +1,18 @@
-/**
-  |============================
-  | include css partials with
-  | default @import url()
-  |============================
-*/
-@import url('./reset.css');
-@import url('./vite-promo.css');
+/* ======= Base ======= */
+@import url('./base.css');
+
+/* ======= Header ======= */
 @import url('./header.css');
 
-:root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
+/* ======= Main ======= */
+/* ------- About us ------- */
+@import url('./about-us.css');
+/* ------- Our collection ------- */
+@import url('./our-collection.css');
+/* ------- Your order ------- */
+@import url('./your-order.css');
+/* ------- Testimonials ------- */
+@import url('./testimonials.css');
 
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-}
+/* ======= Footer ======= */
+@import url('./testimonials.css');
