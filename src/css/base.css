@@ -25,9 +25,21 @@ button {
 
 img {
   display: block;
+	max-width: 100%;
 }
 
 body {
 	font-family: 'Manrope', sans-serif;
 	background-color: #1C2225;
 }
+
+section {
+	padding-bottom: 80px;
+}
+
+.container {
+	max-width: 335px;
+	padding: 0 20px;
+}
+
+

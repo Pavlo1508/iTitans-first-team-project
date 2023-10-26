@@ -5,6 +5,8 @@
 @import url('./header.css');
 
 /* ======= Main ======= */
+/* ------- Hero ------- */
+@import url('./hero.css');
 /* ------- About us ------- */
 @import url('./about-us.css');
 /* ------- Our collection ------- */
