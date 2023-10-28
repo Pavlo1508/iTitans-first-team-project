@@ -1,27 +1,29 @@
-
 .testimonials-title {
-color: #FCF9F9;  
-    font-size: 44px;
+    color: #FCF9F9;
+    font-size: 32px;
     font-weight: 500;
-    line-height: 1.5em;
-    margin-bottom: 64px; 
-    letter-spacing: -1.32px;
+    line-height: 44px;
+    letter-spacing: -0.96px;
+    margin-bottom: 64px;
 }
-
 
 .testimonials-list {
     display: flex;
     gap: 26px;
+    flex-wrap: wrap;
 }
 
 .testimonials-item {
-flex-basis: calc((100% - 52px) / 3);
-border-radius: 4px;
-border: 1px solid rgba(252, 249, 249, 0.10);
-padding: 0px 18px 39px 18px;
-text-align: center;
-position: relative;
+    /* flex-basis: calc((100% - 52px) / 3); */
+    border-radius: 4px;
+    border: 1px solid rgba(252, 249, 249, 0.10);
+    padding: 0px 18px 39px 18px;
+    text-align: center;
+    position: relative;
+}
 
+.testimonials-item:not(:nth-child(-n + 1)) {
+    display: none;
 }
 
 .testimonials-img {
@@ -29,32 +31,64 @@ position: relative;
     top: -32px;
     left: 50%;
     transform: translate(-50%);
-    }
+}
 
 .testimonials-text {
-    color: #FCF9F9;    
-        font-size: 20px;
-        font-weight: 600;
-        line-height: 1.5em;
-       padding-top: 46px;
-        
+    color: #FCF9F9;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.5em;
+    padding-top: 46px;
+
 }
 
 .testimonials-desk {
-    color: rgba(252, 249, 249, 0.40);   
-        font-size: 16px;
-        font-weight: 400;
-        line-height: normal;
-        padding-top: 8px;
+    color: rgba(252, 249, 249, 0.40);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 8px;
 }
 
 
+
 @media screen and (min-width: 768px) {
-  
+    
+    .testimonials-item {
+        width: calc((100% - 32px) / 2);
+        display: block;
     }
 
+    .testimonials-list {
+        gap: 18px;
+    }
+
+    .testimonials-title {
+        font-size: 44px;
+        letter-spacing: -1.32px;
+    }
+
+    .testimonials-desk {
+        font-size: 16px;
+
+    }
+}
 
 
 
+@media screen and (min-width: 1280px) {
+    .testimonials-item {
+        flex-basis: calc((100% - 52px) / 3);
+    }
 
+    .testimonials-title {
+        font-size: 44px;
+        letter-spacing: -1.32px;
+    }
 
+    .testimonials-desk {
+        font-size: 16px;
+
+    }
+
+}
