@@ -22,17 +22,30 @@
     background-repeat: no-repeat;
     background-position: left 300px ;
 }
+
 .list-collection{
-  display: flex;
+   display: flex;
   flex-direction: column;
   gap: 18px;
   align-items: flex-start;
-  justify-content: flex-start;
+justify-content: flex-start;
+  flex-wrap: wrap;
   width: 335px;
   left: 20px;
   top: 0px;
+
 }
 
+.overlay-collection{
+
+}
+
+.item-collection-element{
+  border-radius: 4px;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
 
 .subtitle-collection{
     overflow: hidden;
@@ -57,3 +70,5 @@ font-weight: 400;
 line-height: 14px; /* 100% */
 letter-spacing: 0.7px;
 }
+/*******media screen*********/
+
