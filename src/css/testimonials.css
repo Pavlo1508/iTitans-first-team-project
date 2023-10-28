@@ -7,11 +7,13 @@
 }
 .testimonials-title {
 color: #FCF9F9;  
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 44px;
+    font-weight: 500;
     line-height: 1.5em;
-    margin-bottom: 64px;   
+    margin-bottom: 64px; 
+    letter-spacing: -1.32px;
 }
+
 
 .testimonials-list {
     display: flex;
