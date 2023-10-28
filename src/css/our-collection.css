@@ -1,8 +1,3 @@
-.container{
-    max-width: 375px;
-	padding: 0 20px;
-	margin: 0 auto;
-}
 
 
 .title-collection{
@@ -24,13 +19,9 @@
 }
 
 .list-collection{
-   display: flex;
-  flex-direction: column;
-  gap: 18px;
-  align-items: flex-start;
-justify-content: flex-start;
-  flex-wrap: wrap;
-  width: 335px;
+ 
+ 
+ 
   left: 20px;
   top: 0px;
 
@@ -51,7 +42,7 @@ justify-content: flex-start;
     overflow: hidden;
 color: var(--white, #FCF9F9);
 text-overflow: ellipsis;
-font-family: Manrope;
+font-family: "Manrope";
 font-size: 14px;
 font-style: normal;
 font-weight: 500;
@@ -63,7 +54,7 @@ padding-bottom: 8px;
 }
 .text-collection{
     color: rgba(252, 249, 249, 0.40);
-font-family: Manrope;
+font-family: "Manrope";
 font-size: 14px;
 font-style: normal;
 font-weight: 400;
