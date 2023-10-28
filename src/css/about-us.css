@@ -1,0 +1,47 @@
+.about-us {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    width: 335px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+    background: #1C2225;
+}
+
+.about-us-title {
+    color: #FCF9F9;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.37;
+    letter-spacing: -0.03em;
+    margin-bottom: 40px;
+}
+
+.about-us-item {
+    margin-bottom: 20px;
+}
+
+.about-us-item:last-child {
+    margin-bottom: 0;
+}
+
+.about-us-text {
+    color: rgba(252, 249, 249, 0.40);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.04em;
+}
+
+.about-us--cover-wrap {
+    position: relative;
+    overflow: hidden;
+}
+
+.about-us-img {
+    margin-top: 50px;
+    border-radius: 4px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    width: 100%;
+    flex-shrink: 0;
+}
