@@ -44,4 +44,32 @@ section {
 	margin: 0 auto;
 }
 
+@media screen and (min-width: 768px) {
+	section {
+		padding-bottom: 100px;
+	}
+
+	.container {
+		max-width: 768px;
+		padding: 0 32px;
+	}
+}
+
+@media screen and (min-width: 1280px) {
+	section {
+		padding-bottom: 150px;
+	}
+
+	.container {
+		max-width: 1280px;
+		padding: 0 100px;
+	}
+}
+
+@media screen and (min-width: 1440px) {
+	.container {
+		max-width: 1440px;
+	}
+}
+
 
