@@ -135,16 +135,23 @@
         border-top-left-radius: 40%; */
     /* } */
 
-        .egg {
+        /* .egg {
             width: 139px;
             height: 197px;
+            position: relative;
             background-image: url(../img/jpg/image.jpg);
             background-position: top;
             background-repeat: no-repeat;
-            /* border-radius: 48% 49% 10% 10% / 59% 66% 10% 10%; */
+            border-radius: 48% 49% 10% 10% / 59% 66% 10% 10%;
             border-radius: 48% 49% 10% 10% / 48% 49% 10% 10%;
             transform: translateY(97px);
-    }
+    } */
+
+        .egg-image {
+            border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+            width: 139px;
+            height: 97px;
+        }
 
     /* @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
