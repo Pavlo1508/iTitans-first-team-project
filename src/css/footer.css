@@ -155,3 +155,13 @@
     letter-spacing: -1.92px;
   }
 }
+
+/* 1440 laptop */
+@media screen and (min-width: 1440px) {
+  .footer {
+    background-image: url(../img/png/background-yellow.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 107% 100%;
+  }
+}
