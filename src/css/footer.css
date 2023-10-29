@@ -1,15 +1,17 @@
 .footer {
 }
 .foot {
+  position: relative;
 }
 .footer-menu {
   margin-top: 40px;
   margin-bottom: 40px;
-  display: flex;
+  flex-wrap: wrap;
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 24px;
 }
 .footer-list {
-  /* flex-wrap: wrap; */
-  width: calc(100% - 24px);
 }
 .footer-link {
   color: #fcf9f9;
@@ -40,6 +42,8 @@
   line-height: 1.2em;
   letter-spacing: -1.32px;
 }
+
 .background {
-  /* transform: translateY(50%); */
+  /* transform: translateY(150px); */
+  position: absolute;
 }
