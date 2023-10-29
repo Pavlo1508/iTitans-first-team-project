@@ -101,3 +101,9 @@
     }
 
 }
+
+@media screen and (min-width: 1440px) {
+.testimonials-desk {
+        width: 360px;
+    }
+}
