@@ -12,9 +12,12 @@
   flex-wrap: wrap;
   display: inline-flex;
   align-items: flex-start;
-  gap: 24px;
+  column-gap: 40px;
+  row-gap: 24px;
+  flex-direction: row;
 }
 .footer-list {
+  flex-basis: calc((100% - 40px) / 2);
 }
 .footer-link {
   color: #fcf9f9;
