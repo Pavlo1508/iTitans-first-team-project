@@ -1,8 +1,8 @@
 .footer {
-  background-image: url(../img/png/background-yellow.png);
+  background-image: url(../img/png/elements.png);
   background-repeat: no-repeat;
-  background-size: contain;
-  background-position: 150% 150%;
+  background-position-y: 435px;
+  background-position-x: -34px;
 }
 .foot {
   height: 649px;
@@ -62,10 +62,9 @@
 /* media-tablet */
 @media screen and (min-width: 768px) {
   .footer {
-    background-image: url(../img/png/background-yellow.png);
+    background-image: url(../img/png/elements.png);
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position: 170% 150%;
+    background-position: 182% 110%;
   }
   .foot {
     height: 370px;
@@ -79,7 +78,7 @@
     margin-bottom: 80px;
   }
   .footer-list {
-    flex-basis: calc((100% - 3 * 25px) / 4);
+    flex-basis: auto;
   }
 
   .two {
@@ -109,10 +108,9 @@
 
 @media screen and (min-width: 1280px) {
   .footer {
-    background-image: url(../img/png/background-yellow.png);
+    background-image: url(../img/png/elementsdesktop.png);
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position: 120% 100%;
+    background-position: 138% 40%;
   }
   .foot {
     height: 363px;
@@ -124,9 +122,6 @@
     display: inline-flex;
     align-items: flex-start;
     margin-bottom: 117px;
-  }
-  .footer-list {
-    flex-basis: calc((100% - 3 * 25px) / 4);
   }
 
   .two {
@@ -159,9 +154,8 @@
 /* 1440 laptop */
 @media screen and (min-width: 1440px) {
   .footer {
-    background-image: url(../img/png/background-yellow.png);
+    background-image: url(../img/png/elementsdesktop.png);
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position: 107% 100%;
+    background-position: 110% 40%;
   }
 }
