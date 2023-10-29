@@ -1,8 +1,10 @@
 .footer {
+  background-image: url(../img/png/background-yellow.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 150% 150%;
 }
 .foot {
-  position: relative;
-  width: 375px;
   height: 649px;
   overflow: hidden;
 }
@@ -15,6 +17,14 @@
   column-gap: 40px;
   row-gap: 24px;
   flex-direction: row;
+}
+
+.two {
+  order: 3;
+}
+
+.four {
+  order: 4;
 }
 .footer-list {
   flex-basis: calc((100% - 40px) / 2);
@@ -47,17 +57,4 @@
   font-weight: 400;
   line-height: 1.2em;
   letter-spacing: -1.32px;
-}
-
-.image {
-  position: absolute;
-  transform: translateY(194px);
-  bottom: 0;
-}
-.background {
-  /* transform: translateY(150px); */
-  /* position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translateY(50%); */
 }
