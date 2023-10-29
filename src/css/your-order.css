@@ -1,26 +1,114 @@
-.section-your-order {
-    background-image: url(../img/jpg/girl2.jpg);
+.order-green-girl {
+    height: 550px;
+    background-image: url(../img/jpg/girl2-mobile.jpg);
     background-repeat: no-repeat;
-    background-position: top;
-    background-size: contain;
-    max-width: 100%;
-
+    background-position: center;
+    background-size: cover;
+    max-width: 375px;
+    margin: 0 auto 80px;
 }
 
-.container-your-order {
-    padding-top: 630px;
+@media (min-resolution: 192dpi) {
+    .order-green-girl {
+        background-image: url(../img/jpg/girl2-mobile@2x.jpg);
+    }
 }
 
-.your-order-vest {}
+@media (min-resolution: 288dpi) {
+    .order-green-girl {
+        background-image: url(../img/jpg/girl2-mobile@3x.jpg);
+    }
+}
 
-.your-order-title {}
+.container-order {}
 
-.your-order-your-order {}
+.order-title {
+    color: #FCF9F9;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.38;
+    letter-spacing: -0.96px;
+    margin-bottom: 40px;
+}
 
-.your-order-form {}
+.order-your-order {
+    color: #ECD979;
+}
 
-.your-order-form-input {}
+.order-form-input {
+    width: 100%;
+    padding: 14px 16px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    border: 1px solid #fcf9f91a;
+    background-color: transparent;
+}
 
-.your-order-form-textarea {}
+.order-form-input::placeholder {
+    color: #fcf9f980;
+    font-size: 14px;
+    line-height: normal;
+    letter-spacing: -0.28px;
+}
 
-.form-btn {}
+.order-form-textarea {
+    width: 100%;
+    padding: 14px 16px;
+    border-radius: 8px;
+    border: 1px solid #fcf9f91a;
+    background-color: transparent;
+    margin-bottom: 40px;
+    resize: none;
+    height: 196px;
+}
+
+.order-form-textarea::placeholder {
+    color: #fcf9f980;
+    font-size: 14px;
+    line-height: normal;
+    letter-spacing: -0.28px;
+}
+
+.order-form-btn {
+    padding: 14px 36px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    gap: 10px;
+    min-width: 145px;
+    height: 49px;
+    border-radius: 15px;
+    border: 1px solid rgba(252, 249, 249, 0.10);
+    transition: border-color;
+}
+
+.order-send {
+    color: #FCF9F9;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+}
+
+.order-form-btn:hover,
+.order-form-btn:focus {
+    border-color: #ECD979
+}
+
+.order-arrow {
+    fill: #ECD979;
+    flex-shrink: 0;
+}
+
+.order-vest {
+    display: none;
+}
+
+
+@media screen and (min-width: 768px) {}
+
+.order-form {}
