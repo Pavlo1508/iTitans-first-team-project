@@ -2,6 +2,9 @@
 }
 .foot {
   position: relative;
+  width: 375px;
+  height: 649px;
+  overflow: hidden;
 }
 .footer-menu {
   margin-top: 40px;
@@ -43,7 +46,15 @@
   letter-spacing: -1.32px;
 }
 
+.image {
+  position: absolute;
+  transform: translateY(190px);
+  bottom: 0;
+}
 .background {
   /* transform: translateY(150px); */
-  position: absolute;
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(50%); */
 }
