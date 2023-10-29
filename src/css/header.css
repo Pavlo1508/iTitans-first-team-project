@@ -41,8 +41,9 @@
   border-radius: 15px;
   border: 1px solid rgba(252, 249, 249, 0.1);
   background: rgba(252, 249, 249, 0.1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+.header-link:focus,
 .header-link:hover,
 .header-link:active {
   border-radius: 15px;
@@ -61,7 +62,7 @@
 
 .mob-menu {
   background-color: #ecd979;
-  width: 100%;
+  width: 274px;
   height: 100%;
   position: fixed;
   top: 0;
@@ -73,31 +74,16 @@
   display: flex;
   flex-direction: column;
   align-items: normal;
-  /* background-image: url(../img/png/bg-mob-header.png);
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-size: 545px 484px; */
-}
-/* @media (min-resolution: 192dpi) {
-  .mob-menu {
-    background-image: url(../img/png/bg-mob-headerx2.png);
-  }
-} */
-
-.beg-img {
-  position: absolute;
-  bottom: 0;
-  display: flex;
-  width: 340px;
-  height: 302px;
-  padding: 0px 0.456px 0.337px 0px;
-  justify-content: center;
-  align-items: center;
-  flex-shrink: 0;
   background-image: url(../img/png/bg-mob-header.png);
   background-repeat: no-repeat;
   background-position: bottom;
-  background-size: auto;
+  background-size: 340px 302px;
+}
+
+@media (min-resolution: 192dpi) {
+  .mob-menu {
+    background-image: url(../img/png/bg-mob-headerx2.png);
+  }
 }
 
 .mob-menu.is-open {
@@ -115,9 +101,6 @@
   background: transparent;
   cursor: pointer;
   padding: 0;
-  /* position: absolute;
-  top: 20px;
-  right: 20px; */
 }
 
 .header-svg-nav {
@@ -143,16 +126,13 @@
   align-items: center;
   border-radius: 15px;
   border: 1px solid rgba(28, 34, 37, 0.1);
-  /* position: absolute;
-  top: 20px;
-  left: 20px; */
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .mob-menu-top {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 40px;
   padding: 20px 20px 0 20px;
   margin-bottom: 186px;
 }
@@ -186,12 +166,18 @@
 @media screen and (min-width: 768px) {
   .mob-menu {
     background-image: url(../img/png/bg-tab-header.png);
+    width: 380px;
+    background-size: contain;
   }
 
   @media (min-resolution: 192dpi) {
     .mob-menu {
       background-image: url(../img/png/bg-tab-headerx2.png);
     }
+  }
+
+  .header-logo {
+    margin-right: 0;
   }
 
   .header-svg-close {
@@ -249,10 +235,12 @@
     font-size: 14px;
     line-height: 1.29;
     text-transform: uppercase;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .header-menu-link:active,
-  .header-menu-link:hover {
+  .header-menu-link:hover,
+  .header-menu-link:focus {
     color: #ecd979;
   }
 
@@ -267,10 +255,12 @@
     padding: 14px 28px;
     justify-content: center;
     align-items: center;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .address-link:active,
-  .address-link:hover {
+  .address-link:hover,
+  .address-link:focus {
     border-radius: 15px;
     border: 1px solid #ecd979;
   }
