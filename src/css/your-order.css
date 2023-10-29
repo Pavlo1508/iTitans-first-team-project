@@ -20,8 +20,6 @@
     }
 }
 
-.container-order {}
-
 .order-title {
     color: #FCF9F9;
     font-size: 32px;
@@ -109,6 +107,40 @@
 }
 
 
-@media screen and (min-width: 768px) {}
+@media screen and (min-width: 768px) {
+    .order-green-girl {
+        height: 776px;
+        background-image: url(../img/jpg/girl2-tablet.jpg);
+        max-width: 768px;
+        margin: 0 auto 100px;
+    }
 
-.order-form {}
+    @media (min-resolution: 192dpi) {
+        .order-green-girl {
+            background-image: url(../img/jpg/girl2-tablet@2x.jpg);
+        }
+    }
+
+    @media (min-resolution: 288dpi) {
+        .order-green-girl {
+            background-image: url(../img/jpg/girl2-tablet@3x.jpg);
+        }
+    }
+
+    .order-title {
+        width: 542px;
+        color: #FCF9F9;
+        font-size: 44px;
+        line-height: 1.32;
+        letter-spacing: -1.32px;
+    }
+
+    .order-form {
+        max-width: 508px;
+
+    }
+
+    .order-form-btn {
+        margin: 0 auto 0 0;
+    }
+}
