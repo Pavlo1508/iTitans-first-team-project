@@ -1,6 +1,17 @@
-.your-order {}
+.section-your-order {
+    background-image: url(../img/jpg/girl2.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    max-width: 100%;
 
-.container-your-order {}
+}
+
+.container-your-order {
+    padding-top: 630px;
+}
+
+.your-order-vest {}
 
 .your-order-title {}
 
