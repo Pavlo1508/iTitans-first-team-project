@@ -127,7 +127,7 @@
     }
 
     .order-title {
-        width: 100%;
+        width: 542px;
         color: #FCF9F9;
         font-size: 44px;
         line-height: 1.32;
@@ -157,7 +157,6 @@
     }
 
     .order-send {
-
         font-size: 16px;
         letter-spacing: -0.64px;
     }
@@ -167,9 +166,6 @@
         padding-left: 68px;
     }
 
-    .order-picture {
-        margin-left: auto;
-    }
 
     .container-order {
         padding-bottom: 79px;
@@ -178,8 +174,8 @@
     .section-order {
         background-image: url(../img/png/background.png);
         background-repeat: no-repeat;
-        background-size: contain;
-        background-position: 0% 150%;
+        background-position-y: 1740px;
+        background-position-x: -222px;
     }
 
 }
@@ -219,19 +215,17 @@
         margin-bottom: 0;
     }
 
-    .order-picture {
-        margin-left: 0;
-    }
-
     .order-vest {
         padding-left: 0;
+        flex-shrink: 0;
+        width: 524px;
+    }
+
+    .section-order {
+        background-position-y: 1089px;
+        background-position-x: -254px;
     }
 }
-
-
-
-
-
 
 @media screen and (min-width: 1440px) {
     .order-green-girl {
@@ -253,4 +247,13 @@
         }
     }
 
+    .order-title {
+        width: 100%;
+    }
+
+    .section-order {
+        background-position-y: 1090px;
+        background-position-x: -222px;
+
+    }
 }
