@@ -5,12 +5,19 @@
     background-position-y: 611px;
     background-position-x: 123px;
     background-repeat: no-repeat;
+		background-size: 359px 408px;
 }
 
 @media (min-resolution: 192dpi) {
 		.about-us {
 			background-image: url(../img/png/background@2x.png);
 		}
+}
+
+@media (min-resolution: 278dpi) {
+	.about-us {
+		background-image: url(../img/png/background@3x.png);
+	}
 }
 
 .about-us-title {
@@ -64,7 +71,20 @@
     background-image: url(../img/png/background.png);
     background-position-y: 488px;
     background-position-x: 400px;
+		background-size: 545px 484px;
     }
+
+		@media (min-resolution: 192dpi) {
+		.about-us {
+		background-image: url(../img/png/background@2x.png);
+		}
+		}
+
+		@media (min-resolution: 278dpi) {
+		.about-us {
+		background-image: url(../img/png/background@3x.png);
+		}
+		}
 
     .about-us-title {
     font-size: 44px;
