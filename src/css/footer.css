@@ -58,3 +58,43 @@
   line-height: 1.2em;
   letter-spacing: -1.32px;
 }
+
+/* media-tablet */
+@media screen and (min-width: 768px) {
+  .footer {
+    background-image: url(../img/png/background-yellow.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 170% 150%;
+  }
+  .foot {
+    height: 370px;
+    overflow: hidden;
+  }
+  .footer-menu {
+    display: inline-block;
+    align-items: flex-start;
+    gap: 25px;
+  }
+  .two {
+    order: 0;
+  }
+  .four {
+    order: 0;
+  }
+  .footer-text {
+    color: #fcf9f9;
+    font-size: 54px;
+    font-weight: 400;
+    line-height: 64px; /* 118.519% */
+    letter-spacing: -1.62px;
+    max-width: 521px;
+  }
+  .footer-logo {
+    color: #ecd979;
+    font-size: 54px;
+    font-weight: 400;
+    line-height: 64px;
+    letter-spacing: -1.62px;
+  }
+}
