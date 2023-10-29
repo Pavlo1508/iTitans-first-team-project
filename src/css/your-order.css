@@ -85,10 +85,9 @@
 .order-send {
     color: #FCF9F9;
     font-size: 14px;
-    font-style: normal;
     font-weight: 600;
     line-height: normal;
-    letter-spacing: -0.04em;
+    letter-spacing: -0.56px;
     text-transform: uppercase;
 }
 
@@ -128,7 +127,7 @@
     }
 
     .order-title {
-        width: 542px;
+        width: 100%;
         color: #FCF9F9;
         font-size: 44px;
         line-height: 1.32;
@@ -137,10 +136,121 @@
 
     .order-form {
         max-width: 508px;
+        margin-bottom: 100px;
+    }
 
+    .order-form-input::placeholder {
+        font-size: 16px;
+        letter-spacing: -0.32px;
+    }
+
+    .order-form-textarea::placeholder {
+        font-size: 16px;
+        letter-spacing: -0.32px;
     }
 
     .order-form-btn {
+        padding: 14px 39px;
+        min-width: 168px;
+        height: 50px;
         margin: 0 auto 0 0;
     }
+
+    .order-send {
+
+        font-size: 16px;
+        letter-spacing: -0.64px;
+    }
+
+    .order-vest {
+        display: inherit;
+        padding-left: 68px;
+    }
+
+    .order-picture {
+        margin-left: auto;
+    }
+
+    .container-order {
+        padding-bottom: 79px;
+    }
+
+    .section-order {
+        background-image: url(../img/png/background.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: 0% 150%;
+    }
+
+}
+
+@media screen and (min-width: 1280px) {
+    .order-green-girl {
+        height: 776px;
+        background-image: url(../img/jpg/girl2-laptop.jpg);
+        max-width: 1282px;
+        margin: 0 auto 150px;
+    }
+
+    @media (min-resolution: 192dpi) {
+        .order-green-girl {
+            background-image: url(../img/jpg/girl2-laptop@2x.jpg);
+        }
+    }
+
+    @media (min-resolution: 288dpi) {
+        .order-green-girl {
+            background-image: url(../img/jpg/girl2-laptop@3x.jpg);
+        }
+    }
+
+    .container-order {
+        padding-bottom: 0;
+    }
+
+    .order-base {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        gap: 50px;
+    }
+
+    .order-form {
+        margin-bottom: 0;
+    }
+
+    .order-picture {
+        margin-left: 0;
+    }
+
+    .order-vest {
+        padding-left: 0;
+    }
+}
+
+
+
+
+
+
+@media screen and (min-width: 1440px) {
+    .order-green-girl {
+        height: 776px;
+        background-image: url(../img/jpg/girl2-desktop.jpg);
+        max-width: 1440px;
+        margin: 0 auto 150px;
+    }
+
+    @media (min-resolution: 192dpi) {
+        .order-green-girl {
+            background-image: url(../img/jpg/girl2-desktop@2x.jpg);
+        }
+    }
+
+    @media (min-resolution: 288dpi) {
+        .order-green-girl {
+            background-image: url(../img/jpg/girl2-desktop@3x.jpg);
+        }
+    }
+
 }
