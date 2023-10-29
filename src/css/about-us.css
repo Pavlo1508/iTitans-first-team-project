@@ -5,7 +5,7 @@
     background-position-y: 611px;
     background-position-x: 123px;
     background-repeat: no-repeat;
-		background-size: 359px 408px;
+		background-size: 459px 408px;
 }
 
 @media (min-resolution: 192dpi) {
@@ -15,9 +15,9 @@
 }
 
 @media (min-resolution: 278dpi) {
-	.about-us {
-		background-image: url(../img/png/background@3x.png);
-	}
+		.about-us {
+			background-image: url(../img/png/background@3x.png);
+		}
 }
 
 .about-us-title {
@@ -117,4 +117,16 @@
     background-position-y: 145px;
     background-position-x: 895px;
     }
+
+		@media (min-resolution: 192dpi) {
+		.about-us {
+		background-image: url(../img/png/background@2x.png);
+		}
+		}
+
+		@media (min-resolution: 278dpi) {
+		.about-us {
+		background-image: url(../img/png/background@3x.png);
+		}
+		}
 }
