@@ -34,6 +34,10 @@
 }
 
 .order-form-input {
+    color: #FCF9F9;
+    font-size: 16px;
+    line-height: normal;
+    letter-spacing: -0.32px;
     width: 100%;
     padding: 14px 16px;
     margin-bottom: 20px;
@@ -49,7 +53,17 @@
     letter-spacing: -0.28px;
 }
 
+.order-form-input:hover,
+.order-form-input:focus,
+.order-form-input:active {
+    border-color: #fcf9f999;
+}
+
 .order-form-textarea {
+    color: #FCF9F9;
+    font-size: 16px;
+    line-height: normal;
+    letter-spacing: -0.32px;
     width: 100%;
     padding: 14px 16px;
     border-radius: 8px;
