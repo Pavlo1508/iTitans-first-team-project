@@ -39,7 +39,7 @@
     font-size: 14px;
     font-weight: 400;
     line-height: normal;
-    width: 291px;
+    max-width: 291px;
 }
 
 
@@ -53,6 +53,7 @@
 		.testimonials-list {
 			display: flex;
 			gap: 32px;
+            justify-content: center;
 		}
 
     .testimonials-item {
@@ -67,7 +68,8 @@
 
     .testimonials-desk {
         font-size: 16px;
-        width: 300px;
+        max-width: 300px;
+        min-width: 300px;
         text-align: center;
         
     }
@@ -81,9 +83,9 @@
 		gap: 26px;
 	}
 
-		.testimonials-item:not(:nth-child(2n)) {
-				display: block;
-			}
+	.testimonials-item:not(:nth-child(2n)) {
+		display: block;
+	}
 
     .testimonials-item {
         flex-basis: calc((100% - 52px) / 3);
@@ -96,13 +98,13 @@
 
     .testimonials-desk {
         font-size: 16px;
-        width: 306px;
+        max-width: 306px;
     }
 
 }
 
 @media screen and (min-width: 1440px) {
 .testimonials-desk {
-        width: 360px;
+        max-width: 360px;
     }
 }
