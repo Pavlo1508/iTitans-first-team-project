@@ -39,6 +39,9 @@
     z-index: -1;
 }
 
+
+
+
 .subtitle-collection{
     overflow: hidden;
 color: var(--white, #FCF9F9);
@@ -78,6 +81,9 @@ gap: 20px;
     line-height: 64px;
     letter-spacing: -1.32px;
   }
+  .sub::after{
+content: "...";
+  }
   .subtitle-collection{
     font-size: 18px;
     line-height: 18px;
@@ -116,6 +122,9 @@ gap: 20px;
    .collection-image{
     width: 347px;
     height: 430px;
+  }
+  .sub::after{
+content: "...";
   }
   .background-images{
     top: 49%;
