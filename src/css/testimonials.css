@@ -10,7 +10,7 @@
 .testimonials-item {
     border-radius: 4px;
     border: 1px solid rgba(252, 249, 249, 0.10);
-    padding: 0px 18px 39px 18px;
+    padding: 0px 18px 18px 18px;
     text-align: center;
     position: relative;
 }
@@ -32,6 +32,7 @@
     font-weight: 600;
     line-height: 1.5em;
     padding-top: 46px;
+    margin-bottom: 8px;
 }
 
 .testimonials-desk {
@@ -39,7 +40,6 @@
     font-size: 14px;
     font-weight: 400;
     line-height: normal;
-    padding-top: 8px;
     width: 291px;
 }
 
