@@ -109,7 +109,7 @@ margin: -0.4px;
   }
   .item-collection-element{
       flex-basis: calc((100% - 20px) / 2);
-margin-bottom: 0px;
+
 }
 .subtitle-span{
     display: none;
@@ -120,7 +120,7 @@ margin-bottom: 0px;
     .list-collection{
 display: flex;
 flex-wrap: wrap;
-gap:20px;
+gap:40px 20px;
   }
   
   .item-collection-element{
