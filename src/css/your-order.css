@@ -129,8 +129,8 @@
     display: none;
 }
 
-.order-picture {
-    border-radius: 4px;
+.order-img {
+	border-radius: 4px;
 }
 
 @media screen and (min-width: 768px) {
@@ -195,11 +195,7 @@
     .order-vest {
         display: inherit;
         padding-left: 68px;
-    }
-
-
-    .container-order {
-        padding-bottom: 79px;
+				padding-bottom: 79px;
     }
 
     .section-order {
@@ -252,7 +248,7 @@
     }
 
     .container-order {
-        padding-bottom: 0;
+				padding-left: 64px;
     }
 
     .order-base {
@@ -268,7 +264,7 @@
 
     .order-vest {
         padding-left: 0;
-        flex-shrink: 0;
+				padding-bottom: 0;
         width: 524px;
     }
 
@@ -302,7 +298,15 @@
         }
     }
 
+		.container-order {
+			padding-left: 100px;
+		}
+
     .order-title {
         width: 100%;
     }
+
+		.order-vest {
+			flex-shrink: 0;
+		}
 }
