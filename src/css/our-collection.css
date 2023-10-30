@@ -12,7 +12,11 @@
 }
 
 
-
+.element{
+  background-image: url(../img/png/elements.png);
+  background-repeat: no-repeat;
+  background-position:0% 11%;
+}
 
 
 .overlay-collection{
@@ -101,7 +105,12 @@ content: "...";
   .background-images{
     top:49%;
   }
-  .item-collection-element{
+  .element{
+  background-image: url(../img/png/g8x2.png);
+  background-repeat: no-repeat;
+  background-position:-9% 16%;
+  }
+  .item-collection{
       flex-basis: calc((100% - 20px) / 2);
 margin-bottom: 0px;
 }
@@ -114,14 +123,21 @@ margin-bottom: 0px;
     .list-collection{
 display: flex;
 flex-wrap: wrap;
-gap: 20px;
+gap:20px;
   }
-  .text-collection{
-     gap:40px;
+  
+  .item-collection{
+      flex-basis: calc((100% - 40px) / 3);
+margin-bottom: 0px;
   }
    .collection-image{
     width: 347px;
     height: 430px;
+  }
+  .element{
+    background-image: url(../img/png/g8x3.png);
+    background-repeat: no-repeat;
+    background-position: 0% 16%;
   }
   .sub::after{
 content: "...";
@@ -129,9 +145,20 @@ content: "...";
   .background-images{
     top: 49%;
   }
-.item-collection-element{
+.item-collection{
       flex-basis: calc((100% - 40px) / 3);
 margin-bottom: 0px;
 }
 }
     
+@media screen and (min-width: 1440px){
+.collection-image{
+  width: 400px;
+  height: 430px;
+}
+.element{
+  background-image: url(../img/png/g8x4.png);
+  background-repeat: no-repeat;
+  background-position: 0% 27%;
+}
+}
