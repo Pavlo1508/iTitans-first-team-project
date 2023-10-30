@@ -20,14 +20,6 @@
     color: #ECD979;
 }
 
-/* .hero-order {
-    width: 155px;
-    height: 50px;
-    
-} */
-
-
-
 .hero-order-link {
     color: #FCF9F9;
     font-size: 14px;
@@ -59,8 +51,8 @@
     flex-shrink: 0;
 }
 
-.hero-order .hero-order-link:hover,
-.hero-order .hero-order-link:focus {
+.hero-order-link:hover,
+.hero-order-link:focus {
     border-color: rgba(236, 217, 121, 1);
 }
 
@@ -87,11 +79,6 @@
         margin-bottom: 40px;
         max-width: 549px;
     }
-
-    /* .hero-order {
-        width: 168px;
-        transform: translateX(141px);
-    } */
 
     .hero-order-link {
         font-size: 16px;
