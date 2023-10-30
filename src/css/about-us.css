@@ -17,7 +17,7 @@
 }
 
 @media (min-device-pixel-ratio: 3),
-(min-resolution: 278dpi),
+(min-resolution: 288dpi),
 (min-resolution: 3dppx) {
 		.about-us {
 			background-image: url(../img/png/background@3x.png);
@@ -86,7 +86,7 @@
 		}
 
         @media (min-device-pixel-ratio: 3),
-        (min-resolution: 278dpi),
+        (min-resolution: 288dpi),
         (min-resolution: 3dppx) {
 		.about-us {
 		background-image: url(../img/png/background@3x.png);
@@ -138,7 +138,7 @@
 		}
 
         @media (min-device-pixel-ratio: 3),
-        (min-resolution: 278dpi),
+        (min-resolution: 288dpi),
         (min-resolution: 3dppx) {
 		.about-us {
 		background-image: url(../img/png/background@3x.png);
