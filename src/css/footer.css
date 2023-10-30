@@ -1,8 +1,9 @@
 .footer {
-  background-image: url(../img/png/elements.png);
+  background-image: url(../img/png/background-yellow.png);
   background-repeat: no-repeat;
   background-position-y: 435px;
   background-position-x: -34px;
+  background-size: 452px 401px;
 }
 .foot {
   height: 649px;
@@ -62,9 +63,9 @@
 /* media-tablet */
 @media screen and (min-width: 768px) {
   .footer {
-    background-image: url(../img/png/elements.png);
+    background-image: url(../img/png/background-yellow.png);
     background-repeat: no-repeat;
-    background-position: 188% 110%;
+    background-position: 188% 48%;
   }
   .foot {
     height: 370px;
@@ -108,9 +109,10 @@
 
 @media screen and (min-width: 1280px) {
   .footer {
-    background-image: url(../img/png/elementsdesktop.png);
+    background-image: url(../img/png/background-yellow.png);
     background-repeat: no-repeat;
-    background-position: 138% 40%;
+    background-position: 138% 35%;
+    background-size: 595px 528px;
   }
   .foot {
     height: 363px;
@@ -154,20 +156,20 @@
 /* 1440 laptop */
 @media screen and (min-width: 1440px) {
   .footer {
-    background-image: url(../img/png/elementsdesktop.png);
+    background-image: url(../img/png/background-yellow.png);
     background-repeat: no-repeat;
-    background-position: 110% 40%;
+    background-position: 112% 38%;
   }
 }
 
 /* retina */
 @media (min-resolution: 192dpi) {
   .footer {
-    background-image: url(../img/png/elementsmobtab2x.png);
+    background-image: url(../img/png/background-yellow@2x.png);
   }
 }
 @media (min-resolution: 288dpi) {
   .footer {
-    background-image: url(../img/png/elementsmobtab3x.png);
+    background-image: url(../img/png/background-yellow@3x.png);
   }
 }
