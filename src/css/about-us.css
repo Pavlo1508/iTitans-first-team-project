@@ -3,7 +3,7 @@
     overflow: hidden;
     background-image: url(../img/png/background.png);
     background-position-y: 611px;
-    background-position-x: 123px;
+    background-position-x: 125px;
     background-repeat: no-repeat;
 		background-size: 459px 408px;
 }
@@ -69,8 +69,8 @@
 @media screen and (min-width: 768px) {
     .about-us {
     background-image: url(../img/png/background.png);
-    background-position-y: 488px;
-    background-position-x: 400px;
+    background-position-y: 470px;
+    background-position-x: 399px;
 		background-size: 545px 484px;
     }
 
@@ -90,12 +90,17 @@
     font-size: 44px;
     font-weight: 500;
     line-height: 1.45;
+    letter-spacing: -0.03em;
     }
 
     .about-us-text {
     font-size: 16px;
     letter-spacing: -0.04em;
     text-align: left;
+    }
+
+    .about-us-img {
+        margin-top: 40px;
     }
 }
 
@@ -109,12 +114,11 @@
     .about-us-cover-wrap {
     flex-shrink: 0;
     width: 594px;
-    height: 545px;
     }
 
     .about-us {
     background-image: url(../img/png/background.png);
-    background-position-y: 145px;
+    background-position-y: 180px;
     background-position-x: 895px;
     }
 
@@ -129,4 +133,10 @@
 		background-image: url(../img/png/background@3x.png);
 		}
 		}
+}
+
+@media screen and (min-width: 1440px) {
+        .about-us-cover-wrap {
+        width: 709px;
+        } 
 }
