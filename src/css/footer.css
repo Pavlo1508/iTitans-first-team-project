@@ -64,7 +64,7 @@
   .footer {
     background-image: url(../img/png/elements.png);
     background-repeat: no-repeat;
-    background-position: 182% 110%;
+    background-position: 188% 110%;
   }
   .foot {
     height: 370px;
@@ -157,5 +157,12 @@
     background-image: url(../img/png/elementsdesktop.png);
     background-repeat: no-repeat;
     background-position: 110% 40%;
+  }
+}
+
+/* retina */
+@media (min-resolution: 192dpi) {
+  .footer {
+    background-image: url(../img/png/elementsmobtab2x.png);
   }
 }
