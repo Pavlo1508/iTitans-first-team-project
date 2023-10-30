@@ -1,0 +1,151 @@
+.about-us {
+    position: relative;
+    overflow: hidden;
+    background-image: url(../img/png/background.png);
+    background-position-y: 611px;
+    background-position-x: 125px;
+    background-repeat: no-repeat;
+		background-size: 459px 408px;
+}
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+		.about-us {
+			background-image: url(../img/png/background@2x.png);
+		}
+}
+
+@media (min-device-pixel-ratio: 3),
+(min-resolution: 288dpi),
+(min-resolution: 3dppx) {
+		.about-us {
+			background-image: url(../img/png/background@3x.png);
+		}
+}
+
+.about-us-title {
+    color: #FCF9F9;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.37;
+    letter-spacing: -0.03em;
+    margin-bottom: 40px;
+}
+
+.about-us-list {
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+
+.about-us-text {
+    color: rgba(252, 249, 249, 0.40);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.04em;
+    text-align: left;
+    width: 100%;
+    position: relative;
+        margin-bottom: 20px;
+}
+
+.about-us-text:last-child {
+    margin-bottom: 0;
+}
+
+.about-us-cover-wrap {
+    position: relative;
+    overflow: hidden;
+}
+
+.about-us-img {
+    border-radius: 4px;
+    flex-shrink: 0;
+    height: auto;
+}
+
+@media screen and (min-width: 768px) {
+    .about-us {
+    background-image: url(../img/png/background.png);
+    background-position-y: 470px;
+    background-position-x: 399px;
+		background-size: 545px 484px;
+    }
+
+        @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+		.about-us {
+		background-image: url(../img/png/background@2x.png);
+		}
+		}
+
+        @media (min-device-pixel-ratio: 3),
+        (min-resolution: 288dpi),
+        (min-resolution: 3dppx) {
+		.about-us {
+		background-image: url(../img/png/background@3x.png);
+		}
+		}
+
+    .about-us-title {
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 1.45;
+    letter-spacing: -0.03em;
+    }
+
+    .about-us-list {
+        margin-bottom: 40px;
+    }
+
+    .about-us-text {
+    font-size: 16px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    }
+
+}
+
+@media screen and (min-width: 1280px) {
+    .about-us-container {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    }
+
+    .about-us-cover-wrap {
+    flex-shrink: 0;
+    width: 594px;
+    }
+
+    .about-us {
+    background-image: url(../img/png/background.png);
+    background-position-y: 145px;
+    background-position-x: 895px;
+    }
+
+        @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+		.about-us {
+		background-image: url(../img/png/background@2x.png);
+		}
+		}
+
+        @media (min-device-pixel-ratio: 3),
+        (min-resolution: 288dpi),
+        (min-resolution: 3dppx) {
+		.about-us {
+		background-image: url(../img/png/background@3x.png);
+		}
+		}
+}
+
+@media screen and (min-width: 1440px) {
+        .about-us-cover-wrap {
+        width: 709px;
+        } 
+}
