@@ -1,5 +1,5 @@
-.hero-container {
-    padding-top: 64px;
+.hero-section {
+    padding-top: 60px;
 }
 
 .hero-one-text {
@@ -65,12 +65,18 @@
 }
 
 @media screen and (min-width: 768px) {
+		.hero-section {
+				padding-top: 80px;
+		}
 
     .hero-container {
         display: flex;
         justify-content: space-between;
-        padding-top: 106px;
     }
+
+		.hero-one-text {
+				padding-top: 26px;
+		}
     
     .hero {
         font-size: 54px;
@@ -93,10 +99,6 @@
         flex-direction: column;
         justify-content: space-between;
         align-items: flex-end;
-    }
-
-    .hero-visuals {
-        transform: translateY(-26px);
     }
 
     .star {
@@ -160,7 +162,7 @@
 }
 
 @media screen and (min-width: 1280px) {
-    .hero-container {
+    .hero-section {
         padding-top: 100px;
     }
     
@@ -170,38 +172,37 @@
         flex-direction: row-reverse;
     }
 
-    .hero {
-        min-width: 518px;
-    }
+		.hero-one-text {
+				margin-bottom: 0;
+				padding-top: 66px;
+		}
 
-    .hero-one-text {
-        transform: translateY(94px);
-        margin-bottom: 0;
-    }
+		.hero {
+			margin-top: 0;
+		}
 
     .hero-order-link {
-        transform: translateX(141px);;
+        transform: translateX(141px);
     }
 
-    .hero-visuals {
-        transform: translateY(14px);
-    }
-
+		.hero-two {
+			padding-top: 14px;
+		}
 }
 
 @media screen and (min-width: 1440px) {
-    .hero {
+		.hero-one-text {
+			padding-top: 66px;
+		}
+	
+		.hero {
         font-size: 64px;
         line-height: 1.15;
         min-width: 630px;
     }
 
-    .hero-one-text {
-        transform: translateY(66px);
-        margin-bottom: 0;
-    }
+		.hero-two {
+			padding-top: 66px;
+		}
 
-    .hero-visuals {
-        transform: translateY(66px);
-    }
 }
