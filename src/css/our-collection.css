@@ -28,6 +28,7 @@
    flex-shrink: 0px;
   width: 335px;
   height: 400px;
+  margin: 0 auto;
 
 }
 .item-collection-element{
@@ -39,6 +40,8 @@
 }
 .content-collection{
    padding-top: 18px;
+   width: 335px;
+   margin: 0 auto;
 }
 
 .subtitle-collection{
@@ -95,6 +98,10 @@ margin: -0.4px;
     line-height: 18px;
     letter-spacing: 0.9px;
   }
+  .content-collection{
+   width: 342px;
+   margin: 0 auto;
+}
   .collection-image{
     width: 342px;
     height: 430px;
@@ -122,7 +129,12 @@ display: flex;
 flex-wrap: wrap;
 gap:40px 20px;
   }
+  .content-collection{
+
+   width: 347px;
   
+}
+
   .item-collection-element{
       flex-basis: calc((100% - 40px) / 3);
 margin-bottom: 0px;
@@ -164,4 +176,9 @@ content: "";
   background-image: url(../img/png/g8x4.png);
   background-repeat: no-repeat;
   background-position: 0% 27%;
+}
+.content-collection{
+  
+   width: 400px;
+
 }
