@@ -162,12 +162,12 @@
 }
 
 /* retina */
-@media (min-resolution: 192dpi) {
+@media (min-resolution: 192dpi) or (min-device-pixel-ratio: 2) or (min-resolution: 2dppx) {
   .footer {
     background-image: url(../img/png/background-yellow@2x.png);
   }
 }
-@media (min-resolution: 288dpi) {
+@media (min-resolution: 288dpi) or (min-device-pixel-ratio: 3) or (min-resolution: 3dppx) {
   .footer {
     background-image: url(../img/png/background-yellow@3x.png);
   }
