@@ -166,3 +166,8 @@
     background-image: url(../img/png/elementsmobtab2x.png);
   }
 }
+@media (min-resolution: 288dpi) {
+  .footer {
+    background-image: url(../img/png/elementsmobtab3x.png);
+  }
+}
