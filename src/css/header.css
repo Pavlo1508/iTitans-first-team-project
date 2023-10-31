@@ -84,7 +84,7 @@
   transition: transform 0.25s ease-in-out;
   display: flex;
   flex-direction: column;
-  background-image: url(./img/png/bg-mob-header.png);
+  background-image: url(../img/png/bg-mob-header.png);
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: 340px 302px;
@@ -92,12 +92,12 @@
 
 @media (min-resolution: 192dpi) or (min-device-pixel-ratio: 2) or (min-resolution: 2dppx) {
   .mob-menu {
-    background-image: url(./img/png/bg-mob-headerx2.png);
+    background-image: url(../img/png/bg-mob-headerx2.png);
   }
 }
 @media (min-resolution: 288dpi) or (min-device-pixel-ratio: 3) or (min-resolution: 3dppx) {
   .mob-menu {
-    background-image: url(./img/png/bg-mob-headerx3.png);
+    background-image: url(../img/png/bg-mob-headerx3.png);
   }
 }
 
@@ -179,20 +179,20 @@
 /* MEDIA */
 @media screen and (min-width: 768px) {
   .mob-menu {
-    background-image: url(./img/png/bg-tab-header.png);
+    background-image: url(../img/png/bg-tab-header.png);
     width: 380px;
     background-size: contain;
   }
 
   @media (min-resolution: 192dpi) or (min-device-pixel-ratio: 2) or (min-resolution: 2dppx) {
     .mob-menu {
-      background-image: url(./img/png/bg-tab-headerx2.png);
+      background-image: url(../img/png/bg-tab-headerx2.png);
     }
   }
 
   @media (min-resolution: 288dpi) or (min-device-pixel-ratio: 3) or (min-resolution: 3dppx) {
     .mob-menu {
-      background-image: url(./img/png/bg-tab-headerx3.png);
+      background-image: url(../img/png/bg-tab-headerx3.png);
     }
   }
 

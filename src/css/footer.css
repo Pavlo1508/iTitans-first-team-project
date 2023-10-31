@@ -1,5 +1,5 @@
 .footer {
-  background-image: url(./img/png/background-yellow.png);
+  background-image: url(../img/png/background-yellow.png);
   background-repeat: no-repeat;
   background-size: 452px 401px;
   background-position-y: 430px;
@@ -154,11 +154,11 @@
 /* retina */
 @media (min-resolution: 192dpi) or (min-device-pixel-ratio: 2) or (min-resolution: 2dppx) {
   .footer {
-    background-image: url(./img/png/background-yellow@2x.png);
+    background-image: url(../img/png/background-yellow@2x.png);
   }
 }
 @media (min-resolution: 288dpi) or (min-device-pixel-ratio: 3) or (min-resolution: 3dppx) {
   .footer {
-    background-image: url(./img/png/background-yellow@3x.png);
+    background-image: url(../img/png/background-yellow@3x.png);
   }
 }

@@ -1,5 +1,5 @@
 .about-us {
-  background-image: url(./img/png/background.png);
+  background-image: url(../img/png/background.png);
   background-position-y: 650px;
   background-position-x: 125px;
   background-repeat: no-repeat;
@@ -11,7 +11,7 @@
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .about-us {
-    background-image: url(./img/png/background@2x.png);
+    background-image: url(../img/png/background@2x.png);
   }
 }
 
@@ -19,7 +19,7 @@
   (min-resolution: 288dpi),
   (min-resolution: 3dppx) {
   .about-us {
-    background-image: url(./img/png/background@3x.png);
+    background-image: url(../img/png/background@3x.png);
   }
 }
 

@@ -80,6 +80,14 @@
   box-shadow: 0.5px 0.5px 3px #ecd979;
 }
 
+.egg-image {
+	transition: transform 1000ms ease-out;
+}
+
+.egg-image:hover {
+	transform: scale(1.5);
+}
+
 .hero-two {
   display: none;
 }
