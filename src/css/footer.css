@@ -7,9 +7,11 @@
   padding-top: 40px;
   padding-bottom: 280px;
 }
+
 .foot {
   overflow: hidden;
 }
+
 .footer-menu {
   margin-bottom: 40px;
   flex-wrap: wrap;
@@ -20,16 +22,16 @@
 }
 
 .footer-list {
-	flex-basis: 124px;
+  flex-basis: 124px;
 }
 
 .one {
-	flex-basis: 116px;
+  flex-basis: 116px;
 }
 
 .two {
   order: 3;
-	flex-basis: 116px;
+  flex-basis: 116px;
 }
 
 .four {
@@ -37,14 +39,32 @@
 }
 
 .footer-link {
+  display: flex;
   color: #fcf9f9;
   font-size: 14px;
   font-weight: 400;
   line-height: 1.29; /* 128.571% */
   text-transform: uppercase;
 }
-.footer-link:hover {
+
+/* Amimation */
+
+.about-us-p.element-show {
+  transform: translateX(0) scale(1);
+  opacity: 1;
+}
+
+.about-picture.element-show {
+  transform: translateX(0) scale(1);
+  opacity: 1;
+}
+
+.footer-link:hover,
+.footer-link:active,
+.footer-link:focus {
   color: #ecd979;
+  transform: scale(1.1);
+  text-shadow: 0.5px 0.5px 3px #ecd979;
 }
 .footer-text {
   color: #fcf9f9;
