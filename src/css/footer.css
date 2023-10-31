@@ -6,6 +6,7 @@
   background-position-x: -40px;
   padding-top: 40px;
   padding-bottom: 280px;
+	border-top: 1px solid rgba(252, 249, 249, 0.10);
 }
 .foot {
   overflow: hidden;
