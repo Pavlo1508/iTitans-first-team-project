@@ -3,6 +3,7 @@
     overflow: hidden;
     background-image: url(../img/png/background.png);
     background-position-y: 611px;
+		width: 100%;
     background-position-x: 125px;
     background-repeat: no-repeat;
 		background-size: 459px 408px;
