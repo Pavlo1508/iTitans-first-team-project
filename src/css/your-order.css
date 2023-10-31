@@ -1,18 +1,22 @@
 .order-green-girl {
   height: 550px;
-  background-image: url(../img/jpg/girl2-mobile.jpg);
+  background-image: url(./img/jpg/girl2-mobile.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   max-width: 375px;
-  margin: 0 auto 80px;
+  margin: 0 auto 40px;
+}
+
+.container-order {
+	padding-top: 40px;
 }
 
 @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .order-green-girl {
-    background-image: url(../img/jpg/girl2-mobile@2x.jpg);
+    background-image: url(./img/jpg/girl2-mobile@2x.jpg);
   }
 }
 
@@ -20,7 +24,7 @@
   (min-resolution: 288dpi),
   (min-resolution: 3dppx) {
   .order-green-girl {
-    background-image: url(../img/jpg/girl2-mobile@3x.jpg);
+    background-image: url(./img/jpg/girl2-mobile@3x.jpg);
   }
 }
 
@@ -29,7 +33,7 @@
   font-size: 32px;
   font-weight: 500;
   line-height: 1.38;
-  letter-spacing: -0.96px;
+  letter-spacing: -0.03em;
   margin-bottom: 40px;
   opacity: 0;
   transition: transform 1000ms ease-out, opacity 1000ms linear;
@@ -61,8 +65,7 @@
 .order-form-input {
   color: #fcf9f9;
   font-size: 16px;
-  line-height: normal;
-  letter-spacing: -0.32px;
+  letter-spacing: -0.02em;
   width: 100%;
   padding: 14px 16px;
   margin-bottom: 20px;
@@ -75,7 +78,7 @@
   color: #fcf9f980;
   font-size: 14px;
   line-height: normal;
-  letter-spacing: -0.28px;
+  letter-spacing: -0.02em;
 }
 
 .order-form-input:hover,
@@ -87,8 +90,7 @@
 .order-form-textarea {
   color: #fcf9f9;
   font-size: 16px;
-  line-height: normal;
-  letter-spacing: -0.32px;
+  letter-spacing: -0.02em;
   width: 100%;
   padding: 14px 16px;
   border-radius: 8px;
@@ -103,7 +105,7 @@
   color: #fcf9f980;
   font-size: 14px;
   line-height: normal;
-  letter-spacing: -0.28px;
+  letter-spacing: -0.02em;
 }
 
 .order-form-textarea:hover,
@@ -132,7 +134,7 @@
   font-size: 14px;
   font-weight: 600;
   line-height: normal;
-  letter-spacing: -0.56px;
+  letter-spacing: -0.04em;
   text-transform: uppercase;
 }
 
@@ -145,7 +147,6 @@
 
 .order-arrow {
   fill: #ecd979;
-  flex-shrink: 0;
 }
 
 .order-vest {
@@ -159,16 +160,20 @@
 @media screen and (min-width: 768px) {
   .order-green-girl {
     height: 776px;
-    background-image: url(../img/jpg/girl2-tablet.jpg);
+    background-image: url(./img/jpg/girl2-tablet.jpg);
     max-width: 768px;
-    margin: 0 auto 100px;
+    margin: 0 auto 50px;
   }
+
+	.container-order {
+		padding-top: 50px;
+	}
 
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .order-green-girl {
-      background-image: url(../img/jpg/girl2-tablet@2x.jpg);
+      background-image: url(./img/jpg/girl2-tablet@2x.jpg);
     }
   }
 
@@ -176,7 +181,7 @@
     (min-resolution: 288dpi),
     (min-resolution: 3dppx) {
     .order-green-girl {
-      background-image: url(../img/jpg/girl2-tablet@3x.jpg);
+      background-image: url(./img/jpg/girl2-tablet@3x.jpg);
     }
   }
 
@@ -185,7 +190,7 @@
     color: #fcf9f9;
     font-size: 44px;
     line-height: 1.32;
-    letter-spacing: -1.32px;
+    letter-spacing: -0.03em;
   }
 
   .order-form {
@@ -195,24 +200,24 @@
 
   .order-form-input::placeholder {
     font-size: 16px;
-    letter-spacing: -0.32px;
+    letter-spacing: -0.02em;
   }
 
   .order-form-textarea::placeholder {
     font-size: 16px;
-    letter-spacing: -0.32px;
+    letter-spacing: -0.02em;
   }
 
   .order-form-btn {
     padding: 14px 39px;
     min-width: 168px;
     height: 50px;
-    margin: 0 auto 0 0;
+    margin: 0;
   }
 
   .order-send {
     font-size: 16px;
-    letter-spacing: -0.64px;
+    letter-spacing: -0.04em;
   }
 
   .order-vest {
@@ -222,9 +227,9 @@
   }
 
   .section-order {
-    background-image: url(../img/png/background.png);
+    background-image: url(./img/png/background.png);
     background-repeat: no-repeat;
-    background-position-y: 1740px;
+    background-position-y: 1790px;
     background-position-x: -222px;
     background-size: 545px 484px;
   }
@@ -233,7 +238,7 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .section-order {
-      background-image: url(../img/png/background@2x.png);
+      background-image: url(./img/png/background@2x.png);
     }
   }
 
@@ -241,7 +246,7 @@
     (min-resolution: 288dpi),
     (min-resolution: 3dppx) {
     .section-order {
-      background-image: url(../img/png/background@3x.png);
+      background-image: url(./img/png/background@3x.png);
     }
   }
 }
@@ -249,16 +254,16 @@
 @media screen and (min-width: 1280px) {
   .order-green-girl {
     height: 776px;
-    background-image: url(../img/jpg/girl2-laptop.jpg);
+    background-image: url(./img/jpg/girl2-laptop.jpg);
     max-width: 1282px;
-    margin: 0 auto 150px;
+    margin: 0 auto 75px;
   }
 
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .order-green-girl {
-      background-image: url(../img/jpg/girl2-laptop@2x.jpg);
+      background-image: url(./img/jpg/girl2-laptop@2x.jpg);
     }
   }
 
@@ -266,11 +271,12 @@
     (min-resolution: 288dpi),
     (min-resolution: 3dppx) {
     .order-green-girl {
-      background-image: url(../img/jpg/girl2-laptop@3x.jpg);
+      background-image: url(./img/jpg/girl2-laptop@3x.jpg);
     }
   }
 
   .container-order {
+		padding-top: 75px;
     padding-left: 64px;
   }
 
@@ -292,24 +298,23 @@
   }
 
   .section-order {
-    background-position-y: 1080px;
-    background-position-x: -250px;
+    background-position-y: 1155px;
+    background-position-x: -260px;
   }
 }
 
 @media screen and (min-width: 1440px) {
   .order-green-girl {
     height: 776px;
-    background-image: url(../img/jpg/girl2-desktop.jpg);
+    background-image: url(./img/jpg/girl2-desktop.jpg);
     max-width: 1440px;
-    margin: 0 auto 150px;
   }
 
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .order-green-girl {
-      background-image: url(../img/jpg/girl2-desktop@2x.jpg);
+      background-image: url(./img/jpg/girl2-desktop@2x.jpg);
     }
   }
 
@@ -317,7 +322,7 @@
     (min-resolution: 288dpi),
     (min-resolution: 3dppx) {
     .order-green-girl {
-      background-image: url(../img/jpg/girl2-desktop@3x.jpg);
+      background-image: url(./img/jpg/girl2-desktop@3x.jpg);
     }
   }
 
@@ -332,4 +337,9 @@
   .order-vest {
     flex-shrink: 0;
   }
+
+	.section-order {
+		background-position-y: 1155px;
+		background-position-x: -220px;
+	}
 }
