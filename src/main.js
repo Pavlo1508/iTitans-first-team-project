@@ -1,8 +1,3 @@
-document.getElementById('mob-menu-btn').addEventListener('click', function () {
-  document.getElementById('mob-menu').classList.add('is-open');
-});
-document
-  .getElementById('mob-menu-close')
-  .addEventListener('click', function () {
-    document.getElementById('mob-menu').classList.remove('is-open');
-  });
+import './js/mob-menu';
+import './js/scroll';
+import './js/up-btn';

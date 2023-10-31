@@ -1,5 +1,5 @@
 .footer {
-  background-image: url(../img/png/background-yellow.png);
+  background-image: url(./img/png/background-yellow.png);
   background-repeat: no-repeat;
   background-size: 452px 401px;
   background-position-y: 430px;
@@ -8,29 +8,26 @@
   padding-bottom: 280px;
 	border-top: 1px solid rgba(252, 249, 249, 0.10);
 }
-.foot {
-  overflow: hidden;
-}
+
 .footer-menu {
   margin-bottom: 40px;
   flex-wrap: wrap;
   display: inline-flex;
   column-gap: 40px;
   row-gap: 24px;
-  flex-direction: row;
 }
 
 .footer-list {
-	flex-basis: 124px;
+  flex-basis: 124px;
 }
 
 .one {
-	flex-basis: 116px;
+  flex-basis: 116px;
 }
 
 .two {
   order: 3;
-	flex-basis: 116px;
+  flex-basis: 116px;
 }
 
 .four {
@@ -38,49 +35,57 @@
 }
 
 .footer-link {
+  display: flex;
   color: #fcf9f9;
   font-size: 14px;
-  font-weight: 400;
-  line-height: 1.29; /* 128.571% */
+  line-height: 1.29;
   text-transform: uppercase;
 }
-.footer-link:hover {
+
+/* Amimation */
+
+.about-us-p.element-show {
+  transform: translateX(0) scale(1);
+  opacity: 1;
+}
+
+.about-picture.element-show {
+  transform: translateX(0) scale(1);
+  opacity: 1;
+}
+
+.footer-link:hover,
+.footer-link:active,
+.footer-link:focus {
   color: #ecd979;
+  transform: scale(1.1);
+  text-shadow: 0.5px 0.5px 3px #ecd979;
 }
 .footer-text {
   color: #fcf9f9;
   font-size: 44px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.23; /* 122.727% */
-  letter-spacing: -1.32px;
+  line-height: 1.23;
+  letter-spacing: -0.03em;
 }
 .footer-logo {
   color: #ecd979;
   font-size: 44px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.2em;
-  letter-spacing: -1.32px;
+  line-height: 1.2;
+  letter-spacing: -0.03em;
 }
 
 /* media-tablet */
 @media screen and (min-width: 768px) {
   .footer {
-    background-image: url(../img/png/background-yellow.png);
     background-repeat: no-repeat;
     background-position: 188% 48%;
     padding-top: 40px;
     padding-bottom: 40px;
   }
-  .foot {
-    overflow: hidden;
-  }
+
   .footer-menu {
-    flex-direction: row;
     gap: 25px;
     display: inline-flex;
-    align-items: flex-start;
     margin-bottom: 80px;
   }
   .footer-list {
@@ -96,17 +101,15 @@
   .footer-text {
     color: #fcf9f9;
     font-size: 54px;
-    font-weight: 400;
-    line-height: 64px; /* 118.519% */
-    letter-spacing: -1.62px;
+    line-height: 1.19;
+    letter-spacing: -0.03em;
     max-width: 521px;
   }
   .footer-logo {
     color: #ecd979;
     font-size: 54px;
-    font-weight: 400;
-    line-height: 64px;
-    letter-spacing: -1.62px;
+    line-height: 1.19;
+    letter-spacing: -0.03em;
   }
 }
 
@@ -114,53 +117,35 @@
 
 @media screen and (min-width: 1280px) {
   .footer {
-    background-image: url(../img/png/background-yellow.png);
     background-repeat: no-repeat;
     background-position: 138% 35%;
     background-size: 595px 528px;
   }
-  .foot {
-    overflow: hidden;
-  }
+
   .footer-menu {
-    flex-direction: row;
     gap: 25px;
     display: inline-flex;
-    align-items: flex-start;
     margin-bottom: 117px;
   }
 
-  .two {
-    order: 0;
-  }
-  .four {
-    order: 0;
-  }
   .footer-text {
     color: #fcf9f9;
-    font-family: Manrope;
     font-size: 64px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 74px; /* 115.625% */
-    letter-spacing: -1.92px;
+    line-height: 1.16;
+    letter-spacing: -0.03em;
     max-width: 754px;
   }
   .footer-logo {
     color: #ecd979;
-    font-family: Manrope;
     font-size: 64px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 74px;
-    letter-spacing: -1.92px;
+    line-height: 1.16;
+    letter-spacing: -0.03em;
   }
 }
 
 /* 1440 laptop */
 @media screen and (min-width: 1440px) {
   .footer {
-    background-image: url(../img/png/background-yellow.png);
     background-repeat: no-repeat;
     background-position: 112% 38%;
   }
@@ -169,11 +154,11 @@
 /* retina */
 @media (min-resolution: 192dpi) or (min-device-pixel-ratio: 2) or (min-resolution: 2dppx) {
   .footer {
-    background-image: url(../img/png/background-yellow@2x.png);
+    background-image: url(./img/png/background-yellow@2x.png);
   }
 }
 @media (min-resolution: 288dpi) or (min-device-pixel-ratio: 3) or (min-resolution: 3dppx) {
   .footer {
-    background-image: url(../img/png/background-yellow@3x.png);
+    background-image: url(./img/png/background-yellow@3x.png);
   }
 }

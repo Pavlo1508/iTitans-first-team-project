@@ -1,190 +1,200 @@
-.our-collection{
-  background-image: url(../img/png/background-yellow.png);
+.our-collection {
+  background-image: url(./img/png/background-yellow.png);
   background-repeat: no-repeat;
-background-size: 199px 177px;
-background-position:-127px 298px ;
+  background-size: 199px 177px;
+  background-position: -127px 298px;
+	padding-top: 10px;
 }
 @media (min-resolution: 192dpi) or (min-device-pixel-ratio: 2) or (min-resolution: 2dppx) {
-	.our-collection {
-		background-image: url(../img/png/background-yellow@2x.png);
-	}
-}@media (min-resolution: 288dpi) or (min-device-pixel-ratio: 3) or (min-resolution: 3dppx) {
-	.our-collection {
-		background-image: url(../img/png/background-yellow@3x.png);
-	}
+  .our-collection {
+    background-image: url(./img/png/background-yellow@2x.png);
+  }
+}
+@media (min-resolution: 288dpi) or (min-device-pixel-ratio: 3) or (min-resolution: 3dppx) {
+  .our-collection {
+    background-image: url(./img/png/background-yellow@3x.png);
+  }
 }
 
-
-.title-collection{
-	overflow: hidden;
-	font-family: "Manrope";
-	font-size: 32px;
-	text-align:center;
-	line-height: 44px;
-	color:#FCF9F9;
-    letter-spacing: -0.96px;
-    margin:0 0 40px;
+.title-collection {
+  overflow: hidden;
+  font-size: 32px;
+  text-align: center;
+  line-height: 44px;
+  color: #fcf9f9;
+  letter-spacing: -0.03em;
+  margin: 0 0 40px;
 }
 
-
-
-
-.overlay-collection{
-
-}
-
-.collection-image{
-    border-radius: 4px;
-   flex-shrink: 0px;
+.collection-image {
+  border-radius: 4px;
   width: 335px;
   height: 400px;
   margin: 0 auto;
+}
 
-}
-.item-collection-element{
+.item-collection-element {
   margin-bottom: 20px;
- 
+  transition: transform 0.2s ease-in-out;
+  transition: opasity 0.2s ease-in-out;
 }
-.item-collection-element:last-child{
+
+.item-collection-element:hover {
+  transform: scale(1.1);
+}
+
+/* Amimation */
+.item-collection-element.element-animation {
+  opacity: 0;
+  transition: all 1s ease-out;
+  transform: scale(0.9);
+}
+
+.item-collection-element.element-show {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.item-collection-element:hover {
+  transform: scale(1.09);
+}
+
+.item-collection-element:last-child {
   margin-bottom: 0;
 }
-.content-collection{
-   padding-top: 18px;
-   width: 335px;
-   margin: 0 auto;
+
+.content-collection {
+  padding-top: 18px;
+  width: 335px;
+  margin: 0 auto;
 }
 
-.subtitle-collection{
-    overflow: hidden;
-color: var(--white, #FCF9F9);
-text-overflow: ellipsis;
-font-family: "Manrope";
-font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: 14px; /* 100% */
-letter-spacing: 0.7px;
-text-transform: uppercase;
-
-margin-bottom: 8px;
+.subtitle-collection {
+  color: #fcf9f9;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: -0.05em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
 }
-.text-collection{
-    color: rgba(252, 249, 249, 0.40);
-font-family: "Manrope";
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 14px; /* 100% */
-letter-spacing: 0.7px;
 
+.text-collection {
+  color: rgba(252, 249, 249, 0.4);
+  font-size: 14px;
+  line-height: 1;
+  letter-spacing: -0.05em;
 }
 
 /*******media screen*********/
 @media screen and (min-width: 768px) {
-
-.our-collection{
-  background-size: 338px 300px;
-  background-position: -224px 221px;
-}
-
-  .list-collection{
-display: flex;
-flex-wrap: wrap;
-gap: 20px;
+  .our-collection {
+    background-size: 338px 300px;
+    background-position: -224px 221px;
   }
-  .title-collection{
+
+  .list-collection {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .title-collection {
     font-size: 44px;
-    line-height: 64px;
-    letter-spacing: -1.32px;
+    line-height: 1.45;
+    letter-spacing: -0.03em;
   }
-  .sub::after{
-content: "...";
-letter-spacing: -1.32px;
-margin: -0.4px;
+
+  .sub::after {
+    content: '...';
+    letter-spacing: -0.03em;
+    margin: -5px;
   }
-  .subtitle-collection{
+
+  .subtitle-collection {
     font-size: 18px;
-    line-height: 18px;
-    letter-spacing: 0.9px;
+    line-height: 1;
+    letter-spacing: -0.05em;
   }
-  .text-collection{
+
+  .text-collection {
     font-size: 18px;
-    line-height: 18px;
-    letter-spacing: 0.9px;
+    line-height: 1;
+    letter-spacing: -0.05em;
   }
-  .content-collection{
-   width: 342px;
-   margin: 0 auto;
-}
-  .collection-image{
+
+  .content-collection {
+    width: 342px;
+    margin: 0 auto;
+  }
+
+  .collection-image {
     width: 342px;
     height: 430px;
   }
-  .background-images{
-    top:49%;
+
+  .background-images {
+    top: 49%;
   }
 
-  .item-collection-element{
-      flex-basis: calc((100% - 20px) / 2);
+  .item-collection-element {
+    flex-basis: calc((100% - 20px) / 2);
+  }
 
-}
-.subtitle-span{
+  .subtitle-span {
     display: none;
-}
-}
-@media screen and (min-width: 1280px){
-
-    .list-collection{
-display: flex;
-flex-wrap: wrap;
-gap:40px 20px;
   }
-  .our-collection{
+}
+@media screen and (min-width: 1280px) {
+  .list-collection {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px 20px;
+  }
+
+  .our-collection {
     background-position: -170px 221px;
   }
-  .content-collection{
 
-   width: 346px;
-  
-}
-
-  .item-collection-element{
-      flex-basis: calc((100% - 40px) / 3);
-margin-bottom: 0px;
+  .content-collection {
+    width: 346px;
   }
-   .collection-image{
+
+  .item-collection-element {
+    flex-basis: calc((100% - 40px) / 3);
+    margin-bottom: 0px;
+  }
+
+  .collection-image {
     width: 347px;
     height: 430px;
   }
- 
-  .sub::after{
-content: "...";
-  }
-  .background-images{
+
+  .background-images {
     top: 49%;
   }
-.item-collection{
-      flex-basis: calc((100% - 40px) / 3);
-margin-bottom: 0px;
-}
-}
-    
-@media screen and (min-width: 1440px){
-.collection-image{
-  width: 400px;
-  height: 430px;
-}
-.content-collection{
-  
-   width: 400px;
 
-}
-.subtitle-span{
-    display:inline;
-}
-    .sub::after{
-content: "";
+  .item-collection {
+    flex-basis: calc((100% - 40px) / 3);
+    margin-bottom: 0px;
   }
 }
 
+@media screen and (min-width: 1440px) {
+  .collection-image {
+    width: 400px;
+    height: 430px;
+  }
 
+  .content-collection {
+    width: 400px;
+  }
+
+  .subtitle-span {
+    display: inline;
+  }
+
+  .sub::after {
+    content: '';
+  }
+}
