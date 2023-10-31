@@ -1,7 +1,7 @@
 .about-us {
     background-image: url(../img/png/background.png);
 		background-repeat: no-repeat;
-    background-position-y: 611px;
+    background-position-y: 650px;
     background-position-x: 125px;
 		background-size: 459px 408px;
 }
@@ -67,7 +67,7 @@
 @media screen and (min-width: 768px) {
     .about-us {
     background-image: url(../img/png/background.png);
-    background-position-y: 470px;
+    background-position-y: 520px;
     background-position-x: 399px;
 		background-size: 545px 484px;
     }
@@ -121,7 +121,7 @@
 
     .about-us {
     background-image: url(../img/png/background.png);
-    background-position-y: 145px;
+    background-position-y: 215px;
     background-position-x: 895px;
     }
 
