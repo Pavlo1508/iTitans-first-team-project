@@ -1,6 +1,6 @@
 .order-green-girl {
   height: 550px;
-  background-image: url(../img/jpg/girl2-mobile.jpg);
+  background-image: url(../img/webp/girl2-mobile.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -16,7 +16,7 @@
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .order-green-girl {
-    background-image: url(../img/jpg/girl2-mobile@2x.jpg);
+    background-image: url(../img/webp/girl2-mobile@2x.webp);
   }
 }
 
@@ -24,7 +24,7 @@
   (min-resolution: 288dpi),
   (min-resolution: 3dppx) {
   .order-green-girl {
-    background-image: url(../img/jpg/girl2-mobile@3x.jpg);
+    background-image: url(../img/webp/girl2-mobile@3x.webp);
   }
 }
 
@@ -163,7 +163,7 @@
 @media screen and (min-width: 768px) {
   .order-green-girl {
     height: 776px;
-    background-image: url(../img/jpg/girl2-tablet.jpg);
+    background-image: url(../img/webp/girl2-tablet.webp);
     max-width: 768px;
     margin: 0 auto 50px;
   }
@@ -176,7 +176,7 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .order-green-girl {
-      background-image: url(../img/jpg/girl2-tablet@2x.jpg);
+      background-image: url(../img/webp/girl2-tablet@2x.webp);
     }
   }
 
@@ -184,7 +184,7 @@
     (min-resolution: 288dpi),
     (min-resolution: 3dppx) {
     .order-green-girl {
-      background-image: url(../img/jpg/girl2-tablet@3x.jpg);
+      background-image: url(../img/webp/girl2-tablet@3x.webp);
     }
   }
 
@@ -258,7 +258,7 @@
 @media screen and (min-width: 1280px) {
   .order-green-girl {
     height: 776px;
-    background-image: url(../img/jpg/girl2-laptop.jpg);
+    background-image: url(../img/webp/girl2-laptop.webp);
     max-width: 1282px;
     margin: 0 auto 75px;
   }
@@ -267,7 +267,7 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .order-green-girl {
-      background-image: url(../img/jpg/girl2-laptop@2x.jpg);
+      background-image: url(../img/webp/girl2-laptop@2x.webp);
     }
   }
 
@@ -275,7 +275,7 @@
     (min-resolution: 288dpi),
     (min-resolution: 3dppx) {
     .order-green-girl {
-      background-image: url(../img/jpg/girl2-laptop@3x.jpg);
+      background-image: url(../img/webp/girl2-laptop@3x.webp);
     }
   }
 
@@ -312,7 +312,7 @@
 @media screen and (min-width: 1440px) {
   .order-green-girl {
     height: 776px;
-    background-image: url(../img/jpg/girl2-desktop.jpg);
+    background-image: url(../img/webp/girl2-desktop.webp);
     max-width: 1440px;
   }
 
@@ -320,7 +320,7 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .order-green-girl {
-      background-image: url(../img/jpg/girl2-desktop@2x.jpg);
+      background-image: url(../img/webp/girl2-desktop@2x.webp);
     }
   }
 
@@ -328,7 +328,7 @@
     (min-resolution: 288dpi),
     (min-resolution: 3dppx) {
     .order-green-girl {
-      background-image: url(../img/jpg/girl2-desktop@3x.jpg);
+      background-image: url(../img/webp/girl2-desktop@3x.webp);
     }
   }
 
