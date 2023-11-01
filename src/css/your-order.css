@@ -225,16 +225,17 @@
 
   .order-vest {
     display: inherit;
-    padding-left: 68px;
-    padding-bottom: 79px;
+    padding-left: 66px;
   }
 
   .section-order {
     background-image: url(../img/png/background.png);
     background-repeat: no-repeat;
-    background-position-y: 1790px;
-    background-position-x: -222px;
+		background-position: bottom 0 left -222px;
+    /* background-position-y: 1790px;
+    background-position-x: -222px; */
     background-size: 545px 484px;
+		padding-bottom: 79px;
   }
 
   @media (min-device-pixel-ratio: 2),
@@ -279,8 +280,8 @@
   }
 
   .container-order {
+		max-width: 1136px;
 		padding-top: 75px;
-    padding-left: 64px;
   }
 
   .order-base {
@@ -301,8 +302,10 @@
   }
 
   .section-order {
-    background-position-y: 1155px;
-    background-position-x: -260px;
+		background-position: bottom 0 left -256px;
+    /* background-position-y: 1155px;
+    background-position-x: -260px; */
+		padding-bottom: 0;
   }
 }
 
@@ -330,7 +333,7 @@
   }
 
   .container-order {
-    padding-left: 100px;
+    max-width: 1260px;
   }
 
   .order-title {

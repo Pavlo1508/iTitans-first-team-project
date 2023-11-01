@@ -1,9 +1,35 @@
 .about-us {
     background-image: url(../img/png/background.png);
 		background-repeat: no-repeat;
-    background-position-y: 650px;
-    background-position-x: 125px;
+		background-position: bottom 0 right -209px ;
+    /* background-position-y: 650px;
+    background-position-x: 125px; */
 		background-size: 459px 408px;
+		padding-bottom: 62px;
+}
+
+/* Amimation */
+
+.about-us-p {
+	opacity: 0;
+	transform: translateX(-40px) scale(0.8);
+	transition: transform 1s ease-in, opacity 1s ease-in;
+}
+
+.about-picture {
+	opacity: 0;
+	transform: translateX(-40px) scale(0.8);
+	transition: transform 1s ease-in, opacity 1s ease-in;
+}
+
+.about-us-p.element-show {
+	transform: translateX(0) scale(1);
+	opacity: 1;
+}
+
+.about-picture.element-show {
+	transform: translateX(0) scale(1);
+	opacity: 1;
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -40,13 +66,9 @@
 .about-us-text {
     color: rgba(252, 249, 249, 0.40);
     font-size: 14px;
-    font-weight: 400;
     line-height: normal;
     letter-spacing: -0.04em;
-    text-align: left;
-    width: 100%;
-    position: relative;
-        margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .about-us-text:last-child {
@@ -60,16 +82,16 @@
 
 .about-us-img {
     border-radius: 4px;
-    flex-shrink: 0;
-    height: auto;
 }
 
 @media screen and (min-width: 768px) {
     .about-us {
     background-image: url(../img/png/background.png);
-    background-position-y: 520px;
-    background-position-x: 399px;
+		background-position: bottom 0 right -176px;
+    /* background-position-y: 520px;
+    background-position-x: 399px; */
 		background-size: 545px 484px;
+		padding-bottom: 50px;
     }
 
         @media (min-device-pixel-ratio: 2),
@@ -102,7 +124,6 @@
     .about-us-text {
     font-size: 16px;
     letter-spacing: -0.04em;
-    text-align: left;
     }
 
 }
@@ -121,8 +142,10 @@
 
     .about-us {
     background-image: url(../img/png/background.png);
-    background-position-y: 215px;
-    background-position-x: 895px;
+		background-position: bottom 0 right -160px;
+    /* background-position-y: 215px;
+    background-position-x: 895px; */
+		padding-bottom: 80px;
     }
 
         @media (min-device-pixel-ratio: 2),
@@ -143,7 +166,10 @@
 }
 
 @media screen and (min-width: 1440px) {
-        .about-us-cover-wrap {
+	.about-us {
+		background-position: bottom 0 right 0;
+	}
+        .about-us-cover-wrap, .about-us-img {
         width: 709px;
         } 
 }

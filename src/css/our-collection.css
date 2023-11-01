@@ -2,8 +2,9 @@
   background-image: url(../img/png/background-yellow.png);
   background-repeat: no-repeat;
   background-size: 199px 177px;
-  background-position: -127px 298px;
-	padding-top: 10px;
+	background-position: top 316px left -127px;
+  /* background-position: -127px 298px; */
+	padding-top: 18px;
 }
 @media (min-resolution: 192dpi) or (min-device-pixel-ratio: 2) or (min-resolution: 2dppx) {
   .our-collection {
@@ -17,7 +18,6 @@
 }
 
 .title-collection {
-  overflow: hidden;
   font-size: 32px;
   text-align: center;
   line-height: 44px;
@@ -28,9 +28,8 @@
 
 .collection-image {
   border-radius: 4px;
-  width: 335px;
-  height: 400px;
-  margin: 0 auto;
+	width: 100%;
+	height: 430px;
 }
 
 .item-collection-element {
@@ -65,8 +64,6 @@
 
 .content-collection {
   padding-top: 18px;
-  width: 335px;
-  margin: 0 auto;
 }
 
 .subtitle-collection {
@@ -90,7 +87,8 @@
 @media screen and (min-width: 768px) {
   .our-collection {
     background-size: 338px 300px;
-    background-position: -224px 221px;
+ 		background-position: top 271px left -224px;
+		padding-top: 50px;
   }
 
   .list-collection {
@@ -128,11 +126,6 @@
     margin: 0 auto;
   }
 
-  .collection-image {
-    width: 342px;
-    height: 430px;
-  }
-
   .background-images {
     top: 49%;
   }
@@ -153,7 +146,8 @@
   }
 
   .our-collection {
-    background-position: -170px 221px;
+		padding-top: 70px;
+		background-position: top 291px left -170px;
   }
 
   .content-collection {

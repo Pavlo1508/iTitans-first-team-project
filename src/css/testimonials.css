@@ -44,6 +44,10 @@
 }
 
 @media screen and (min-width: 768px) {
+	.testimonials {
+		padding-top: 100px;
+	}
+
   .testimonials-item:not(:nth-child(3n)) {
     display: block;
   }
@@ -72,6 +76,10 @@
 }
 
 @media screen and (min-width: 1280px) {
+	.testimonials {
+			padding-top: 150px;
+		}
+
   .testimonials-list {
     gap: 26px;
   }
