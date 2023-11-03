@@ -19,6 +19,10 @@
 	src: url(../fonts/Manrope-SemiBold.ttf);
 }
 
+:root {
+	scroll-behavior: smooth;
+}
+
 /* Reset styles */
 h1,
 h2,
