@@ -6,3 +6,7 @@ document
   .addEventListener('click', function () {
     document.getElementById('mob-menu').classList.remove('is-open');
   });
+
+document.getElementById('mob-nav').addEventListener('click', function () {
+  document.getElementById('mob-menu').classList.remove('is-open');
+});
